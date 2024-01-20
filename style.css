@@ -19,7 +19,7 @@ body {
 
 .page {
   width: 75rem;
-  margin: 0 auto;
+  margin: 0 auto 30rem;
   padding-top: 13rem;
 }
 
@@ -33,6 +33,11 @@ body::before {
   z-index: -1;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
 h1 {
   color: #FFF;
   font-size: 4.8rem;
@@ -91,7 +96,18 @@ fieldset legend {
   color: #4E4958;
   font-family: Poppins;
   font-size: 1.4rem;
-  line-height: 2.4rem; 
+  line-height: 2.4rem;
+  margin-bottom: 0.8rem; 
+}
+
+.fieldset-wrapper h1 {
+  color: #535971;
+  font-size: 2.0rem;
+  line-height: 3.4rem; 
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 32px;
 }
 
 .input-wrapper label span {
@@ -108,6 +124,65 @@ fieldset legend {
   height: 5.6rem;
   padding: 0 2.4rem;
 }
+
+.coll-3 {
+  display: flex;
+  gap: 3.2rem;
+}
+
+.coll-3 .input-wrapper {
+  margin: 0;
+}
+
+.coll-3 input {
+  width: 30rem;
+  margin-bottom: 1.6rem;
+}
+
+#time {
+  display: flex;
+  gap: 1rem;
+}
+
+#time input {
+  width: 14rem;
+}
+
+footer {
+  width: 75rem;
+  height: 16rem;
+  border-radius: 0px 0px 20px 20px;
+  background: #535971;
+  position: relative;
+}
+
+footer input {
+  display: flex;
+  width: 60.8rem;
+  height: 5.5rem;
+  padding: 1.5rem 4rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 2rem;
+  background: #FF5374;
+  border: none;
+  position: absolute;
+  left: 7.1rem;
+  bottom: 5.2rem;
+  color: #FFF;
+  font-family: Staatliches;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.6rem;
+  cursor: pointer;
+  }
+
+  footer input:hover {
+    background: #d1697e;
+  }
+
 
 
 
